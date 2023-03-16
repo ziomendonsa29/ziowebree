@@ -1,0 +1,161 @@
+.wrap{
+	background: gray;
+	width: 900px;
+	
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+	background: URL(img/zio.gif);
+	width		:880px;
+	height		:180px;
+
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: gray;
+	height: 3rem;
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: gray;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.wrap .menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.wrap .menu ul li a:hover{
+	color: aqua;
+	transition: 1.0s;
+	font-size: 25px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: green;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+
+.wrap .badan .sidebar ul li{
+	list-style: none;
+	margin: 10px;
+}
+
+.wrap .badan .sidebar ul li a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: rgb(192, 255, 207);
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+
+
+
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+
+/* Parte profil */
+
+.wrap .isin .konten{
+		background: rgb(192, 255, 207);
+		float: left;
+		height: 462px;
+		width: 56.3rem;
+}
+
+.wrap .isin .konten img{
+	width: 20rem;
+	padding: 40px 30px;
+	border-radius: 50px;
+}
+
+.wrap .isin .konten .let{
+	width: 500px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.wrap .isin .konten p{
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: justify;
+}
+
+/* Parte kontaktu */
+
+.wrap .isin .konten .kuadradu{
+	background-color: rgba(0, 0, 0, 0.156);
+	margin: 40px;
+	height: 270px;
+	width: 330px;
+	border-radius: 10px;
+}
+
+.wrap .isin .konten .kuadradu input{
+	margin: 10px;
+	width: 290px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.wrap .isin .konten .kuadradu button{
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.wrap .isin .konten .majen img{
+	margin-top: -22rem;
+	width: 250px;
+	float: right;
+	margin-right: 140px;
+}
+
+/* PARTE TUTORIAL HTML */
+
+.wrap .badan .content .materia-html h3{
+	padding: 10px;
+}
+
+.wrap .badan .content .materia-html p{
+	font-size: 20px;
+	margin: 10px;
+	text-align: justify;
+}
